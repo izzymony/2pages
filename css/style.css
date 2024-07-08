@@ -1,0 +1,743 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    
+    height: 3rem;
+    position:sticky;
+    width: 100%;
+    margin-top: 1rem;
+    scroll-snap-type: mandatory;
+}
+
+#check{
+    display:none;
+}
+.logo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1rem;
+    font-size: 18px;
+    font-weight: 600;
+   text-decoration:underline;
+ 
+  }
+
+  .menus{
+    filter: invert(1);
+  }
+
+.checkbtn{
+    font-size: 20px;
+    float: right;
+    height: fit-content;
+    width: fit-content;
+    margin-right: 30px;
+    cursor: pointer;
+    display:none;
+    margin-top: 1rem;
+   
+}
+
+
+header{
+    text-decoration: none;
+    background: #FF926B;
+   padding: 1rem;
+}
+
+
+.hero{
+
+font-family:'Raleway-sans', sans-serif;
+font-size: 32px;
+font-style: normal;
+font-variant-caps: normal;
+font-variant-east-asian: normal;
+font-variant-ligatures: normal;
+font-variant-numeric: normal;
+font-weight: 700;
+text-align: center;
+margin: 1rem;
+margin-top: 5rem;
+
+}
+.p{
+
+font-family: Raleway, sans-serif;
+font-size: 16px;
+font-style: normal;
+font-variant-caps: normal;
+font-variant-east-asian: normal;
+font-variant-ligatures: normal;
+font-variant-numeric: normal;
+font-weight: 400;
+text-align: center;
+margin-top: 1rem;
+}
+
+.img{
+    width: 100%;
+    margin-top: 3rem;
+    border-radius: 6px;
+}
+
+.achievements{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.nums, span{
+font-family: Raleway, sans-serif;
+font-size: 48px;
+font-style: normal;
+font-variant-caps: normal;
+font-variant-east-asian: normal;
+font-variant-ligatures: normal;
+font-variant-numeric: normal;
+font-weight: 700;
+}
+.nums{
+    margin-top: 2rem;
+}
+span{
+    margin-top: 55rem;
+}
+
+.figures{
+   margin-top: 3rem;
+}
+
+.texts{
+font-family: Raleway, sans-serif;
+font-size: 16px;
+font-style: normal;
+font-variant-caps: normal;
+font-variant-east-asian: normal;
+font-variant-ligatures: normal;
+font-variant-numeric: normal;
+font-weight: 400;
+}
+.head{
+font-family: Raleway, sans-serif;
+font-size: 20px;
+font-style: normal;
+font-variant-caps: normal;
+font-variant-east-asian: normal;
+font-variant-ligatures: normal;
+font-variant-numeric: normal;
+font-weight: 400;
+margin-top: 3rem;
+}
+
+
+.logo-img{
+    width: 100%;
+ 
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5rem;
+}
+
+
+
+/*plate*/
+.plate-img{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-top: 5rem;
+}
+
+.text-card-container{
+    margin-top: 4rem;
+    width: 90%;
+    margin: auto;
+    padding-top: 4rem;
+}
+.text-card,.text-card1,.text-card2{
+    background: #FF926B;
+    padding: 1.5rem;
+    border-radius: 3px;
+    margin-top: 1rem;
+        font-family: Raleway, sans-serif;
+        font-size: 17px;
+        font-style: normal;
+        font-variant-caps: normal;
+        font-variant-east-asian: normal;
+        font-variant-ligatures: normal;
+        font-variant-numeric: normal;
+        font-weight: 700;
+}
+
+.text{
+    font-family: Raleway, sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        font-variant-caps: normal;
+        font-variant-east-asian: normal;
+        font-variant-ligatures: normal;
+        font-variant-numeric: normal;
+        font-weight: 400;
+        margin-top: 1rem;
+}
+.text-card1,.text-card2{
+    background: none;
+}
+
+/*mountains*/
+.background{
+    background-color: black;
+    width: 90%;
+    margin: auto;
+   padding: 1rem;
+   margin-top: 4rem;
+
+
+}
+.mountains{
+margin-top: 9rem;
+
+}
+.mount{
+   background-color: #F8F9FA; 
+  padding-top: -11rem;
+  padding-bottom: 4rem;
+}
+.ph{
+    margin-top: 3rem;
+}
+h1{
+font-family: Raleway, sans-serif;
+font-size: 32px;
+color: white;
+text-align: center;
+font-size:25px;
+margin: 2rem;
+font-style: normal;
+font-variant-caps: normal;
+font-variant-east-asian: normal;
+font-variant-ligatures: normal;
+font-variant-numeric: normal;
+font-weight: 500;
+
+}
+.plate-img-mini{
+   width: 80%;
+   margin: auto;
+   display: flex;
+   border-radius: 5px;
+}
+
+.t{
+    font-family: Raleway, sans-serif;
+        font-size: 17px;
+        font-style: normal;
+        font-variant-caps: normal;
+        font-variant-east-asian: normal;
+        font-variant-ligatures: normal;
+        font-variant-numeric: normal;
+        font-weight: 900;
+        color: white;
+        width: 80%;
+        margin: auto;
+        margin-top: 1rem;
+}
+.te{
+    font-family: Raleway, sans-serif;
+        font-size: 15px;
+        line-height: 1rem;
+        font-style: normal;
+        font-variant-caps: normal;
+        font-variant-east-asian: normal;
+        font-variant-ligatures: normal;
+        font-variant-numeric: normal;
+        font-weight: 400;
+        color: white; 
+        margin: auto;
+        margin-top: 1rem;
+        color:lightgrey
+}
+.mount{
+    font-family: Raleway, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 500;
+   width: 100%;
+   margin: auto;
+
+    text-align: center;
+    padding-top: 4rem;
+}
+
+button{
+    text-align: center;
+    display: flex;
+    margin: auto;
+    margin-top: 3rem;
+    background: #FF926B;
+    border: none;
+    padding: 17px;
+    border-radius: 3px;
+    color: white;
+}
+.mobile-mockup-img-background{
+   margin-top: 4rem;
+   background: none;
+   margin: 3rem;
+                                                                                                                              ;
+}
+.mobile-mockup-img-background1{
+   margin-top: 4rem;
+   background: none;
+   margin: 3rem;
+                                                                                                                              ;
+}
+.mobile-mockup-img-background:hover{
+    background-color:white;
+    width: 90%;
+    padding: 1rem;
+    margin: auto;
+    transition: all 0.5s ease-in-out;
+    margin-top: 4rem;
+                            
+}
+.mobile-mockup-img-background1:hover{
+    background-color:white;
+    width: 90%;
+    padding: 1rem;
+    margin: auto;
+    transition: all 0.5s ease-in-out;
+   
+                            
+}
+.mobile-mockup{
+    width:70%;
+    margin: auto;
+    display: flex;
+    margin-top: 4rem;
+}
+.a
+   {
+        font-size: 16px;
+        text-decoration:none;
+        color: #FF926B;
+        display: none;
+}
+
+
+.a:hover{
+    font-size: 16px;
+    text-decoration:none;
+    color: #FF926B;
+    transition: all .5s;
+    display: block;
+}
+.card-mockups{
+    margin-top: rem;
+}
+.mobile-mockup-text-header{
+font-family: Raleway, sans-serif;
+font-size: 16px;
+font-style: normal;
+font-variant-caps: normal;
+font-variant-east-asian: normal;
+font-variant-ligatures: normal;
+font-variant-numeric: normal;
+font-weight: 700;
+color: black;
+margin-top: 4rem;
+
+
+}
+.mobile-mockup-p{
+font-family: Raleway, sans-serif;
+font-size: 16px;
+font-style: normal;
+font-variant-caps: normal;
+font-variant-east-asian: normal;
+font-variant-ligatures: normal;
+font-variant-numeric: normal;
+font-weight:400;
+color:#bababa ;
+margin: 1rem;
+margin-top: 1.5rem;
+}
+
+.season-mockup{
+    background-color:white;
+    width: 90%;
+    padding: 1rem;
+    margin: auto;
+    transition: all 0.5s;
+   
+                            
+}
+
+/* quote*/
+.quote{
+    width: 90%;
+    margin: auto;
+    
+}
+.img-quote{
+    width: 100%;
+}
+
+.text-quote{
+font-family: Raleway, sans-serif;
+font-size: 20px;
+font-style: normal;
+font-variant-caps: normal;
+font-variant-east-asian: normal;
+font-variant-ligatures: normal;
+font-variant-numeric: normal;
+font-weight: 700;
+margin-top: 2rem  ;
+
+}
+
+.ss{
+font-family: Raleway, sans-serif;
+font-size: 16px;
+font-style: italic;
+
+
+font-variant-caps: normal;
+font-variant-east-asian: normal;
+font-variant-ligatures: normal;
+font-variant-numeric: normal;
+font-weight: 400;
+margin-top: 1rem;
+}
+.ss2{
+  
+
+font-family: Raleway, sans-serif;
+font-size: 16px;
+font-style: normal;
+font-variant-caps: normal;
+font-variant-east-asian: normal;
+font-variant-ligatures: normal;
+font-variant-numeric: normal;
+font-weight: 400;
+
+}
+
+h2{
+    font-family: Raleway, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 400;
+    width: 90%;
+    margin: auto;
+    color:lightgray;
+    padding-top: 4rem ;
+}
+.Users-section{
+    background-color: #4D3E3E;
+    margin-top: 5rem;
+    padding-bottom: 4rem;
+}
+
+.form{
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    border-radius: 3px;
+    padding: 1rem;
+   margin-top: 3rem ;
+}
+
+.myForm{
+    width: 70%;
+    margin: auto;
+   
+}
+
+.form-header{
+    font-size: 30px;
+    font-family: Raleway, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+}select{
+    height: 3rem;
+    width: 100%;
+    font-size: 19px;
+    border: 1px solid #ccc;
+  }
+ 
+  .containers {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  input {
+    padding: 10px;
+    
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  input{
+    width: 100%;
+  }
+
+ .form-group{
+  margin-top: 3rem;
+ }
+
+ input{
+  margin-top: 0.5rem;
+ }
+  
+  
+
+.error{
+    font-size: 12px;
+    font-weight: 100;
+    color:red ;
+    
+}
+span ,input{
+    margin-top: 2rem;
+}
+
+input{
+    height: 3rem;
+    border-color: #dcdddf;
+    border-top-color: #f9fbff;
+    border-top-color: #dcdddf;
+    margin-top: 1.5rem;
+    width: 100%;
+    font-size: 17PX;
+    color:#dcdddf;
+    text-indent: 1rem;
+    border-radius: 4px;
+    background: none;
+}
+::placeholder{
+   font-size: 17px;
+   text-indent: 1rem;
+    color: black;
+}
+.margin{
+    margin-top: 2rem;
+}
+input input [type="Submit"], [value="Send Form"]{
+   background-color: #FF926B;
+   color: white;
+   text-align: center;
+   border: none;
+   text-indent: 0;
+   height: 3rem;
+    
+}
+input:hover{
+   
+}
+textarea{
+    margin-top: 1.5rem;
+    font-size: 17PX;
+    color:#dcdddf;
+    text-indent: 1rem;
+    border-color: #dcdddf;
+    border-top-color: #f9fbff;
+    border-top-color: #dcdddf;
+}
+
+select{
+    width: 100%;
+    height: 3rem;
+    margin-top: 1.5rem;
+    text-indent: .5rem;
+    font-size: 17px;
+    color:#979899;
+}
+option{
+    text-indent: 1rem;
+    font-size: 16px;
+}
+
+
+textarea::placeholder{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 3rem;
+    color: #979899;
+    font-size: 17px;
+    padding: 0.1rem;
+}
+
+/*abt-head*/
+.abt-head{
+    color:dark grey;
+    font-size: 16px;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.about{
+    width: 90%;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+.abt-p{
+    font-family: Raleway, sans-serif;
+font-size: 17px;
+font-style: normal;
+font-variant-caps: normal;
+font-variant-east-asian: normal;
+font-variant-ligatures: normal;
+font-variant-numeric: normal;
+font-weight: lighter;
+margin-top: 1rem;
+
+}
+
+.links{
+    margin-top: 1rem;
+    display: flex 19px;
+    width: 100%;
+
+}
+
+.footer{
+    width: 90%;
+    margin: auto;
+}
+
+.ol-holder{
+    font-family: Raleway, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight:900;
+    margin-top: 3rem;
+}
+
+ol a{
+    font-size: 16px;
+    font-weight: lighter;
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    color: gray;
+   
+}
+
+.lists{
+    margin-top: 1.7rem;
+}
+
+
+
+@media (max-width:900px){
+    .checkbtn{
+        display: block;
+       }
+    
+       ul{
+        position:fixed;
+   height: 100vh;
+   z-index: 1;
+   width: 80%;
+   max-width: -300px;
+   background-color: rgb(46, 45, 45);
+    left: -100%;
+    right:-50%;
+   top: 0;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-color: white;
+    font-family: 'Epilogue', sans-serif;
+    transition: all 0.9s;
+    opacity: 2;
+       }
+       
+    
+      #closemenu{
+       font-size: 40px;
+       margin-left: 1rem;
+       margin-top: em;
+       float: left;
+       display: flex;
+      }
+      .ul-top{
+        margin-top: 4rem;
+      }
+
+      
+      
+    
+       nav ul li {
+           display:block;
+           margin: 35px 0px;
+           line-height: 1px;
+           font-size: 16px;
+           color: black;
+          
+       }   
+       nav ul li a{
+           font-size:16px;
+           text-decoration: none;
+           color: black;
+           margin-left: 3rem;
+           font-size: 20px;
+           font-weight: lighter;
+           font-family: Raleway, sans-serif;
+           line-height: rem;
+           font-weight: 700px;
+       }
+       .clo{
+        color: #ff926b;
+        margin-left: 3rem;
+       }
+       .ul-top{
+        margin-top: 6rem;
+        
+       }
+    
+       .get{
+        width: 80%;
+        margin: auto;
+        background-color: aqua;
+        padding: 1rem;
+        background: none;
+        border-radius: 1rem;
+        border: 1px solid white;
+       }
+       #check:checked ~ ul{
+           left: 0;
+       }
+       #close:checked ~ ul{
+            left: 0;
+       }
+       
+    }
